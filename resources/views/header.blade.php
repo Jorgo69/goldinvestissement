@@ -72,7 +72,7 @@
 
                         <div class="menu-logo">
 
-                            <a href="index.html"><img src="assets/images/perso/logoJakS.png" alt=""></a>
+                            <a href="index.html"><img src="{{asset('assets/images/perso/logoJakS.png')}}" alt=""></a>
 
                         </div>
 
@@ -134,7 +134,7 @@
 
                             <div class="menu-logo">
 
-                                <a href="index.html"><img src="assets/images/logo.png" alt=""></a>
+                                <a href="index.html"><img src="{{asset('assets/images/logo.png')}}" alt=""></a>
 
                             </div>
 
@@ -192,7 +192,7 @@
 
                                         <li class="add-menu-right">
 
-                                            <img src="assets/images/perso/logoJak.png" alt=""/>
+                                            <img src="{{asset('assets/images/perso/logoJak.png')}}" alt=""/>
 
                                         </li>
 
@@ -234,7 +234,7 @@
 
                                     @endauth
 
-                                       <li class=""><a href="{{ route('accueil')}}">Quelques Offres Pour Vous </a> </li>
+                                       <li class=""><a href="{{ route('nos.offres')}}">Offres </a> </li>
 
                             </ul>
 

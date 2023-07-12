@@ -13,5 +13,10 @@ class PostController extends Controller
         
         return view('accueil', compact('format'));
     }
+
+    public function offer()
+    {
+        return view('offre');
+    }
     
 }

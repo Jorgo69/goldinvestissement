@@ -68,6 +68,8 @@ Route::get('Mot de Passe Oublié', [InscriptionController::class, 'forgetPasswor
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 
+Route::get('/Our_Offers', [PostController::class, 'offer'])->name('nos.offres');
+
 //  Admin
 
 Route::get('/AdminDashboard', [App\Http\Controllers\AdminControllers::class, 'AdDash'])->name('AdminDashboard');
